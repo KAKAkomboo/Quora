@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 90%;
+    height: 60px;
+    background-color: rgb(233, 234, 234);
+    padding: 0px 5% 0px 5%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 140px;
+    height: 100%;
+    background-image: url(../image/logo.png);
+    background-size: 80% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.home, .following, .answer, .company, .notification {
+    width: 40px;
+    height: 58px;
+    background-repeat: no-repeat;
+    margin-left: 14px;
+}
+
+.home {
+    background-image: url('../image/icon-home.png');
+    background-size: 210% 70%;
+    background-position: right;
+}
+
+.following {
+    background-image: url('../image/icon-following.png');
+    background-size: 210% 70%;
+}
+
+.answer {
+    background-image: url('../image/answer-icon.png');
+    background-size: 210% 70%;
+}
+
+.company {
+    background-image: url('../image/icon-company.png');
+    background-size: 210% 70%;
+}
+
+.notification {
+    background-image: url('../image/icon-notification.png');
+    background-size: 210% 70%;
+}
+
+.home:hover {
+    background-position: left;
+    border-bottom: 2px solid red;
+}
+
+.answer:hover, .following:hover, .company:hover, .notification:hover {
+    background-position: right;
+    border-bottom: 2px solid red;
+}
+
+.search {
+    background-image: url(../image/icons8-search-50.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 8% 56%;
+    padding-left: 32px;
+    width: 320px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: 0px 18px 0px 18px;
+}
+
+.search:focus {
+    outline: 1px solid rgb(54, 129, 209);
+}
+
+.try-quora {
+    width: 100px;
+    height: 32px;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+    border-radius: 24px;
+    border: 1.5px solid grey;
+    margin-right: 16px;
+}
+
+.header-button {
+    border-radius: 50px;
+    margin: 0px 16px 0px 0px;
+    width: 24px;
+    height: 24px;
+}
+
+.add-question {
+    width: 160px;
+    height: 32px;
+    background-color: rgb(141, 60, 60);
+    background-image: url(../image/icons8-down-arrow-50.png);
+    background-repeat: no-repeat;
+    background-position: 130px;
+    background-size: 10% 40%;
+    padding: 0px 32px 0px 0px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+}
+
+.add-question:hover {
+    background-color: rgb(108, 45, 45);
+}
